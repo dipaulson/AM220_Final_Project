@@ -16,7 +16,7 @@ To run our node classification experiments with the AFR3 method, run the file `r
 
 <pre> python run_node_classification.py --rewiring AFR3 </pre>
 
-To run other structural rewiring methods, simply replace AFR3 with DR, borf, sdrf, or fosr in the rewiring argumnet.
+To run other structural rewiring methods, simply replace AFR3 with DR, borf, sdrf, or fosr in the rewiring argumnet. To run no structural rewiring, replace AFR3 with none.
 
 To run feature shuffle rewiring, set the shuffle argument to true and specify the shuffle ratio as follows:
 
@@ -26,6 +26,6 @@ To change the GNN architecture, specify the layer_type arguments as follows:
 
 <pre> python run_node_classification.py --rewiring AFR3 --layer_type GCN </pre>
 
-Other aspects of the experiments can be modified by specifying other arguments in the command line. See the `run_node_classification.py` file for a list of these arguments.
+Other aspects of the experiments can be modified by specifying other arguments in the command line. See the `run_node_classification.py` file for a list of these arguments. Finally, to specify the dataset to which the rewiring method is applied, in the `run_node_classification.py` file, the `datasets` dictionary can be modified accordingly. 
 
 Note that much of this code is duplicated from Fesser and Weber et al. 2024: https://arxiv.org/abs/2309.09384
