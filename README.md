@@ -10,7 +10,7 @@ conda activate borf
 pip install -r requirements.txt
 ```
 
-## Experiments:
+## Experiments
 
 To run our node classification experiments with the AFR3 method, run the file `run_node_classification.py` as follows:
 
