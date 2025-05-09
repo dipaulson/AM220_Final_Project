@@ -16,7 +16,7 @@ To run our node classification experiments with the AFR3 method, run the file `r
 
 <pre> python run_node_classification.py --rewiring AFR3 </pre>
 
-To run other structural rewiring methods, simply replace AFR3 with DR, borf, sdrf, or fosr in the rewiring argumnet. To run no structural rewiring, replace AFR3 with none.
+To run other structural rewiring methods, simply replace AFR3 with DR, borf, sdrf_bfc, or fosr in the rewiring argumnet. To run no structural rewiring, replace AFR3 with none.
 
 To run feature shuffle rewiring, set the shuffle argument to true and specify the shuffle ratio as follows:
 
