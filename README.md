@@ -26,4 +26,4 @@ To change the GNN architecture, specify the layer_type arguments as follows:
 
 <pre> python run_node_classification.py --rewiring AFR3 --layer_type GCN </pre>
 
-Other aspects of the experiments can be modified by specifying other arguments in the command line. See the `run_node_classification.py` for a list of these arguments.
+Other aspects of the experiments can be modified by specifying other arguments in the command line. See the `run_node_classification.py` file for a list of these arguments.
