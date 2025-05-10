@@ -1,5 +1,5 @@
 from attrdict import AttrDict
-from torch_geometric.datasets import WebKB, WikipediaNetwork, Actor, Planetoid #LRGBDataset, HeterophilousGraphDataset
+from torch_geometric.datasets import WebKB, WikipediaNetwork, Actor, Planetoid, LRGBDataset #HeterophilousGraphDataset
 from torch_geometric.utils import to_networkx, from_networkx, to_undirected, dropout_adj
 from torch_geometric.transforms import LargestConnectedComponents, ToUndirected
 from experiments.node_classification import Experiment
